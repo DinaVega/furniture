@@ -18,7 +18,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 body{
   color:#212529;
@@ -58,15 +57,7 @@ font-size: 36px;
 font-weight: 400;
 line-height: normal;
 }
-/* h4 {
-font-family: Helvetica;
-font-size: 18px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 20px; */
 
-}
 p {
 font-family: Roboto;
 font-size: 16px;
@@ -249,11 +240,21 @@ background: 0;
 display: flex;
 gap: 40px;
 text-transform: uppercase;
+font-family: Roboto;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
  align-items: end
 }
 .footer_center {
   display: flex;
-  align-items: end
+  align-items: end;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 22.4px */
 }
 .footer_left {
   text-transform: uppercase;
@@ -284,7 +285,6 @@ color: inherit;
   justify-content: space-between;
   gap: 20px;
   text-align: center;
-  
 }
 .comma {
   background: 0;
